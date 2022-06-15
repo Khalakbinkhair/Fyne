@@ -1,0 +1,332 @@
+.banner-img{
+/*	background: url(/frontend/images/banner-bg.png);
+  background-size: auto;
+  background-repeat: no-repeat;*/
+  /* display: flex;
+   */
+  
+  z-index: 111;
+}
+.banner-img img{
+   width: 8rem;
+}
+.bannerBtn{
+  position: absolute;
+  bottom: 0;
+  background: #2196B0;
+
+}
+.bannerBtn .showbtn{
+  border: none;
+  color: #FFFFFF;
+  margin-left: 3rem;
+}
+.bannerBtn .showbtn:hover{
+  color: #000000;
+}
+.box{
+    position: absolute;
+    width: 2rem;
+    height: 3rem;
+    left: 1rem;
+    background-color: #FFFFFF;
+}
+.bg1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.bg2 {
+  position: absolute;
+  top: 80%;
+  z-index: -1;
+}
+.bg3 {
+  position: absolute;
+  right: 0;
+}
+.img-3{
+  position: absolute;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: contain;
+  bottom: 9%;
+  right:0;
+  width: auto !important;
+  z-index: -1;
+}
+.img-1{
+
+  
+  -ms-transform: rotate(0deg); /* IE 9 */
+  transform: rotate(0deg);
+}
+.left-bottle {
+  width: 10rem;
+  height: 10rem;
+
+ 
+  position: relative;
+  background-size: cover;
+  animation-name:left-bottle;
+  animation-duration: 4s;
+  background-position: center;
+  background: url('frontend/images/bottle.png');
+  left:235px; 
+  top:80px;
+  object-fit: contain;
+  background-size:contain ;
+  transform: rotate(-25deg)
+
+}
+
+@keyframes left-bottle{
+  0%   { background: url('frontend/images/bottle.png'); left:-400px;  top:80px;transform: rotate(0deg);}
+  25%  { background: url('frontend/images/bottle.png') ; left:235px;top:80px;;transform: rotate(0deg);}
+  50%  { background: url('frontend/images/bottle.png') ; left:235px;top:80px;;transform: rotate(-25deg);}
+  
+}
+
+
+@media screen and (min-width: 768px) {
+  .right-bottle{
+   
+    width: 10rem;
+    height: 10rem;
+  
+    object-fit: contain;
+    background-size: cover;
+    background-size:contain ;
+    background-position: center;
+    position: relative;
+  
+    left:322px;
+    top:-67px;
+    transform: rotate(15deg)
+  
+  
+  }
+  .left-bottle {
+    width: 10rem;
+    height: 10rem;
+  
+   
+    position: relative;
+    background-size: cover;
+    animation-name:left-bottle;
+  
+    left:235px; 
+    top:80px;
+    object-fit: contain;
+    background-size:contain ;
+    transform: rotate(-25deg)
+   
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  .right-bottle{
+   
+    width: 10rem;
+    height: 10rem;
+  
+    object-fit: contain;
+    background-size: cover;
+    background-size:contain ;
+    background-position: center;
+    position: relative;
+
+    left:322px;
+    top:-67px;
+    transform: rotate(15deg)
+  
+  
+  }
+  .left-bottle {
+    width: 10rem;
+    height: 10rem;
+  
+   
+    position: relative;
+    background-size: cover;
+    animation-name:left-bottle;
+ 
+    left:235px; 
+    top:80px;
+    object-fit: contain;
+    background-size:contain ;
+    transform: rotate(-25deg)
+   
+  }
+}
+@media  screen and (min-width: 992px) {
+  .right-bottle{
+    width: 10rem;
+    height: 10rem;
+  
+    object-fit: contain;
+    background-size: cover;
+    background-size:contain ;
+    background-position: center;
+    position: relative;
+  
+    left:322px;
+    top:-67px;
+    transform: rotate(15deg)
+  
+  }
+  .left-bottle {
+    width: 10rem;
+  height: 10rem;
+
+ 
+  position: relative;
+  background-size: cover;
+
+  left:235px; 
+  top:80px;
+  object-fit: contain;
+  background-size:contain ;
+  transform: rotate(-25deg)
+ 
+  }
+}
+@media  screen and (min-width: 1200px) {
+  .right-bottle{
+    width: 10rem;
+    height: 10rem;
+  
+    object-fit: contain;
+    background-size: cover;
+    background-size:contain ;
+    background-position: center;
+    position: relative;
+   
+    left:322px;
+    top:-67px;
+    transform: rotate(15deg)
+  
+  }
+  .left-bottle {
+    width: 10rem;
+  height: 10rem;
+
+ 
+  position: relative;
+  background-size: cover;
+  animation-name:left-bottle;
+
+  left:235px; 
+  top:80px;
+  object-fit: contain;
+  background-size:contain ;
+  transform: rotate(-25deg)
+ 
+  }
+}
+.right-bottle{
+
+  width: 10rem;
+  height: 10rem;
+
+  object-fit: contain;
+  background-size: cover;
+  background-size:contain ;
+  background-position: center;
+  position: relative;
+  animation-name:right-bottle;
+  animation-duration: 4s;
+
+  left:322px;
+  top:-67px;
+  transform: rotate(15deg)
+  
+
+}
+
+@keyframes right-bottle {
+  0%   { background: url('frontend/images/bottle.png'); left:600px; top:-67px;transform: rotate(0deg);}
+  25%  { background: url('frontend/images/bottle.png') ; left:322px; top:-67px;transform: rotate(0deg);}
+  50%  { background: url('frontend/images/bottle.png') ; left:322px;top:-67px;transform: rotate(15deg);}
+
+}
+
+
+.img-2{
+  -ms-transform: rotate(0deg); /* IE 9 */
+  transform: rotate(0deg);
+  left:20px;
+}
+.story .story-img{
+  /*background: url(/frontend/images/story-bg.png);*/
+}
+.sustainability{
+  background: url(/frontend/images/sustainability-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 111;
+}
+.sustainability-img{
+  display: flex;
+  justify-content: center;
+}
+.service .card{
+  background: #FFFFFF;
+  box-shadow: 6px 7px 27px rgba(33, 150, 176, 0.38);
+  border-radius: .9rem;
+  height: 100%;
+}
+.service .card .card-img-top{
+    width: 12rem;
+    align-self: center;
+    padding: 2rem 0rem 0rem 0rem;
+}
+.clients h1, .projects h1, .experties h1{
+  text-align: left;
+  padding-bottom: 2rem;
+}
+/*.clients h1,.clients h2{*/
+/*  color: #0F0F0F;*/
+/*}*/
+.projects{
+  margin-bottom: 1rem;
+}
+.header-content{
+  padding-top: 5rem;
+}
+.carousel-indicators {
+    top: 97%;
+}
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #C4C4C4; 
+}
+/*.clients{*/
+/*  background: #f2f2f2;*/
+/*}*/
+.img-box {
+    box-shadow: 0 2px 3px rgb(0 0 0 / 10%);
+    border-radius: 0.25rem;
+    background: #ffffff;
+    padding: 1rem;
+    /*filter: grayscale(100%);*/
+}
+@media screen and (max-width: 991px){
+  .header-content {
+    padding-top: 0rem;
+    margin-bottom: 2rem;
+    z-index: -1;
+  }
+  .bannerBtn {
+    padding: 0;
+}
+  .banner-img img {
+    width: 6.5rem;
+}
+  .sustainability .img-1,.sustainability .img-2{
+     width: 6.5rem;
+  }
+}

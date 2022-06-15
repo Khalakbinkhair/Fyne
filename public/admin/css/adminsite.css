@@ -1,0 +1,28 @@
+.sidebar{
+    padding-top: 1rem !important;
+    background: #E3EBEC;
+}
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active{
+    color: #000;
+}
+.nav-sidebar .nav-item>.nav-link{
+    color: #000;
+}
+.main-sidebar .brand-text, .sidebar .nav-link p, .sidebar .user-panel .info{
+    color: #000;
+}
+.fa-book:before , .fa-table:before, .fa-pie-chart:before, .fa-circle-o:before{
+    color: #000;
+}
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active{
+    background: #E3EBEC;
+}
+.main-header, .main-footer{
+    background: #E3EBEC !important;
+}
+.sidebar-dark-primary{
+    background: #E3EBEC !important;
+}
+.fa-edit:before, .fa-pencil-square-o:before{
+    color: #000;
+}
